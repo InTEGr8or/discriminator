@@ -3,7 +3,7 @@
 open Config
 open System.IO
 
-let cname = "discriminator.tech"
+let cname = "http://discriminator.tech"
 
 let postPredicate (projectRoot: string, page: string) =
     let fileName = Path.Combine(projectRoot,page)
